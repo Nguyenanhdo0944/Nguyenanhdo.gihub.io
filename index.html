@@ -3,39 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Chuyên Nghiệp</title>
+    <title>CV - Nguyễn Anh Đô</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Chào Mừng Đến Với Website Của Chúng Tôi</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Trang Chủ</a></li>
-                <li><a href="#about">Giới Thiệu</a></li>
-                <li><a href="#services">Dịch Vụ</a></li>
-                <li><a href="#contact">Liên Hệ</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="about">
-        <h2>Về Chúng Tôi</h2>
-        <p>Chúng tôi cung cấp các giải pháp công nghệ hiện đại.</p>
-    </section>
-    
-    <section id="services">
-        <h2>Dịch Vụ</h2>
-        <p>Chúng tôi chuyên về thiết kế web, phát triển phần mềm và tư vấn công nghệ.</p>
-    </section>
-    
-    <section id="contact">
-        <h2>Liên Hệ</h2>
-        <p>Email: contact@example.com</p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 Website Chuyên Nghiệp. All rights reserved.</p>
-    </footer>
+    <div class="cv-container">
+        <aside class="sidebar">
+            <div> 
+                <img class="profile-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqekwL2LW2-NBO_FE2f2IjZQnp_1xl-shGcg&s" alt="Ảnh đại diện">
+                </div>
+            <h1>Nguyễn Anh Đô</h1>
+            <p>Developer Tester</p>
+            <section class="contact">
+                <h2>Liên Hệ</h2>
+                <p>Email: nguyenanhdo@example.com</p>
+                <p>Điện thoại: 0987 654 321</p>
+                <p>Địa Chỉ: TP. Hồ Chí Minh, Việt Nam</p>
+                <p>LinkedIn: linkedin.com/in/nguyenanhdo</p>
+            </section>
+            <section class="education">
+                <h2>Học Vấn</h2>
+                <p><strong>Trường:</strong> Đại học Công Nghệ TP.HCM (HUTECH)</p>
+                <p><strong>Lớp:</strong> 21DTHB4</p>
+                <p><strong>Chuyên Ngành:</strong> Công nghệ Thông tin</p>
+            </section>
+            <section class="skills">
+                <h2>Kỹ Năng</h2>
+                <ul>
+                    <li>Kiểm thử phần mềm (Manual & Automation)</li>
+                    <li>Test case, Test plan, Bug tracking</li>
+                    <li>Selenium, JUnit, Postman</li>
+                    <li>Lập trình: Java, Python, SQL</li>
+                    <li>Quản lý mã nguồn: Git, GitHub</li>
+                </ul>
+            </section>
+        </aside>
+        <main class="content">
+            <section class="about">
+                <h2>Giới Thiệu</h2>
+                <p>Một Developer Tester với đam mê về kiểm thử phần mềm, tối ưu hóa hệ thống và đảm bảo chất lượng sản phẩm.</p>
+            </section>
+            <section class="experience">
+                <h2>Kinh Nghiệm</h2>
+                <div class="job">
+                    <h3>Tester - Công ty ABC</h3>
+                    <p>2024 - Hiện tại</p>
+                    <ul>
+                        <li>Viết và thực thi test case cho các ứng dụng web và mobile.</li>
+                        <li>Sử dụng Selenium để kiểm thử tự động.</li>
+                        <li>Báo cáo lỗi và theo dõi trên Jira.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Thực tập Tester - Công ty XYZ</h3>
+                    <p>2023 - 2024</p>
+                    <ul>
+                        <li>Thực hiện kiểm thử API bằng Postman.</li>
+                        <li>Viết tài liệu kiểm thử, báo cáo lỗi.</li>
+                        <li>Hỗ trợ đội phát triển trong quá trình fix bug.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="references">
+                <h2>Người Tham Chiếu</h2>
+                <p><strong>Nguyễn Văn A</strong> - Quản lý tại Công ty ABC</p>
+                <p>Email: nguyenvana@example.com | Điện thoại: 0987 123 456</p>
+                <p><strong>Trần B</strong> - Lead Tester tại Công ty XYZ</p>
+                <p>Email: tranb@example.com | Điện thoại: 0976 543 210</p>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
